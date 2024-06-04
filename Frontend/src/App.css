@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Alex+Brush&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -16,7 +16,7 @@ body {
   min-width: 1500px;
   max-width: 1500px;
   margin: 0 auto;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
 }
 @media (max-width: 1520px) {
   .container {
@@ -39,7 +39,7 @@ nav {
   margin: 0 auto;
 }
 nav::after {
-  content: "";
+  content: '';
   position: absolute;
   height: 0.6px;
   bottom: 0;
@@ -95,7 +95,7 @@ nav svg {
     padding: 10px 30px;
   }
   nav::after {
-    content: "";
+    content: '';
     display: none;
   }
   nav .hamburger {
@@ -172,9 +172,10 @@ nav svg {
   background: #fff;
   position: relative;
   padding: 50px 20px;
+  border-radius: 4px;
 }
 .hero .item h3 {
-  font-family: "Alex Brush", cursive;
+  font-family: 'Alex Brush', cursive;
   color: #a2783a;
   font-weight: 300;
   font-size: 28px;
@@ -199,6 +200,10 @@ nav svg {
   background: #000;
   width: fit-content;
   cursor: default;
+}
+.hero .item div .book-now {
+  border-radius: 8px;
+  cursor: pointer;
 }
 @media (max-width: 620px) {
   .hero {
@@ -230,7 +235,7 @@ nav svg {
 }
 .contact .banner .item h4 {
   font-weight: 300;
-  font-family: "Alex Brush", cursive;
+  font-family: 'Alex Brush', cursive;
   font-size: 2rem;
 }
 .contact .banner .item p {
@@ -271,7 +276,7 @@ nav svg {
   color: #fff;
   background: #a2783a;
   font-weight: 300;
-  font-family: "Alex Brush", cursive;
+  font-family: 'Alex Brush', cursive;
   border: none;
   width: fit-content;
 }
@@ -311,13 +316,13 @@ footer .banner .title {
 }
 footer .banner .title h1 {
   font-size: 40px;
-  font-family: "Cormorant Garamond", serif;
+  font-family: 'Cormorant Garamond', serif;
   letter-spacing: 3px;
   font-weight: 400;
 }
 footer .banner .title p {
   color: #a2783a;
-  font-family: "Alex Brush", cursive;
+  font-family: 'Alex Brush', cursive;
   font-size: 24px;
 }
 footer .banner .tag {
@@ -361,7 +366,7 @@ footer .banner .tag div button {
 }
 .about h4 {
   color: #a2783a;
-  font-family: "Alex Brush", cursive;
+  font-family: 'Alex Brush', cursive;
   font-weight: 200;
   font-size: 24px;
   margin-bottom: 20px;

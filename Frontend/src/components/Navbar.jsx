@@ -10,7 +10,7 @@ const Navbar = () => {
 
       <div className={showMenu ? 'navLinks showmenu' : 'navLinks'}>
         <div className='links'>
-          <Link to='landing' spy={true} smooth={true} duration={500}>
+          <Link to='hero' spy={true} smooth={true} duration={500}>
             Home
           </Link>
           <Link to='services' spy={true} smooth={true} duration={500}>
