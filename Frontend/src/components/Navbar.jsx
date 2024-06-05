@@ -6,7 +6,9 @@ const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
   return (
     <nav>
-      <div className='logo'>EventLy</div>
+      <div className='logo'>
+        EVENT<span style={{ marginTop: '12px' }}>.ly</span>
+      </div>
 
       <div className={showMenu ? 'navLinks showmenu' : 'navLinks'}>
         <div className='links'>

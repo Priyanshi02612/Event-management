@@ -168,7 +168,7 @@ nav svg {
 .hero .item {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 20px;
   background: #fff;
   position: relative;
   padding: 50px 20px;

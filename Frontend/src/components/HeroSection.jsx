@@ -10,7 +10,7 @@ const HeroSection = () => {
         <h3>Dream Maker</h3>
 
         <div>
-          <h3>Your personal dream maker</h3>
+          <h1>Your personal dream maker</h1>
 
           <p>
             We believe that it is all about the BIG DREAMS and the samll
