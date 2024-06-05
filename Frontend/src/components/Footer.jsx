@@ -1,9 +1,28 @@
-import React from 'react'
+import React from 'react';
 
 const footer = () => {
   return (
-    <div>footer</div>
-  )
-}
+    <footer>
+      <div className='banner'>
+        <div className='title'>
+          <h1>EVENT.ly</h1>
 
-export default footer
+          <p>Events and Weddings</p>
+        </div>
+
+        <div className='tag'>
+          <label>New Letter</label>
+
+          <div>
+            <input type='text' placeholder='E-mail' />
+            <button>Subscribe</button>
+          </div>
+
+          <p>Sign up with your email address to receive news and updates!</p>
+        </div>
+      </div>
+    </footer>
+  );
+};
+
+export default footer;
